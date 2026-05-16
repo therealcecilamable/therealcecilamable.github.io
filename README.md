@@ -467,7 +467,6 @@
     </div>
 
     <div class="content">
-      <hr>
 
       <!-- 1. EXECUTIVE SUMMARY -->
       <h2>1. Executive Summary</h2>
@@ -482,7 +481,6 @@
 
       <p>Dash is submitted under the Finance Track of the ATF AI Challenge 2026. The platform directly addresses financial exclusion at the student level — creating infrastructure for a campus economy that enables peer income, verified employment pathways, and structured micro-transactions for an underserved demographic.</p>
 
-      <hr>
 
       <!-- 2. PROBLEM STATEMENT -->
       <h2>2. Problem Statement</h2>
@@ -513,7 +511,6 @@
         <div class="toggle-body">GCTU's physical campus is inadequately represented on existing mapping tools. For new students, navigating to buildings or meeting points is a genuine challenge. When students agree to meet for a trade, there is no standardised, safe way to coordinate a physical meetup — creating friction for every offline transaction and, in some cases, safety concerns.</div>
       </div>
 
-      <hr>
 
       <!-- 3. PRODUCT OVERVIEW -->
       <h2>3. Product Overview</h2>
@@ -548,7 +545,6 @@
         Trust infrastructure includes: institutional email verification, a peer reputation system, an affiliate accountability model, SRC-backed employment verification, and physical Safe Zone meetup points surfaced through the mapping layer.
       </div>
 
-      <hr>
 
       <!-- 4. FEATURES -->
       <h2>4. Feature Summary</h2>
@@ -588,7 +584,6 @@
         </div>
       </div>
 
-      <hr>
 
       <!-- 5. MARKET CONTEXT -->
       <h2>5. Market Context & Opportunity</h2>
@@ -603,7 +598,6 @@
 
       <blockquote>This is a significant product-market fit advantage. The demand is proven. The supply exists. The platform is the missing layer.</blockquote>
 
-      <hr>
 
       <!-- 6. COMPETITION -->
       <h2>6. ATF AI Challenge — Competition Alignment</h2>
@@ -623,7 +617,6 @@
       <h3>6.3 Innovation Positioning</h3>
       <p>The Dash Map represents a novel application of crowd-sourced spatial intelligence in a campus commerce context. No comparable product exists for Ghanaian university campuses. The combination of a peer marketplace with a community-built navigation layer — incentivised through a rewards system — is a distinct and defensible product position.</p>
 
-      <hr>
 
       <!-- 7. ROADMAP -->
       <h2>7. Phased Rollout Plan</h2>
@@ -636,7 +629,6 @@
         <li><strong>Scale</strong> — Rollout to additional technology-focused universities in Accra, replicating the SRC affiliate model at each new campus.</li>
       </ol>
 
-      <hr>
 
       <!-- 8. CLOSING -->
       <h2>8. Closing Statement</h2>
