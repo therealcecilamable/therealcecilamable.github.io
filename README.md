@@ -243,9 +243,15 @@
     }
 
     .feature-card {
-      padding: 16px 0;
-      background: transparent;
+      border: 1px solid #e9e9e7;
+      border-radius: 6px;
+      padding: 16px;
+      background: #fbfaf8;
       transition: all 0.2s ease;
+    }
+    
+    .feature-card:hover {
+      background: #f1f0ee;
     }
 
     .feature-card-label {
@@ -279,9 +285,11 @@
     }
 
     .stat-card {
-      background: transparent;
-      padding: 16px 0;
-      text-align: left;
+      background: #f7f6f3;
+      border-radius: 6px;
+      padding: 18px;
+      text-align: center;
+      border: 1px solid #e9e9e7;
     }
 
     .stat-num {
