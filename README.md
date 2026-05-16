@@ -88,18 +88,15 @@
 
     /* ============ PROPERTIES TABLE ============ */
     .properties {
-      border: 1px solid #e9e9e7;
-      border-radius: 6px;
-      margin: 0 20px 24px;
+      margin: 0 0 24px;
       overflow: hidden;
-      background: #fafaf9;
     }
 
     .prop-row {
       display: grid;
       grid-template-columns: 1fr;
-      border-bottom: 1px solid #e9e9e7;
-      padding: 0;
+      padding: 12px 0;
+      border-bottom: 1px solid #f0f0f0;
     }
 
     .prop-row:last-child {
@@ -107,17 +104,16 @@
     }
 
     .prop-key {
-      padding: 10px 16px;
-      font-size: 12px;
+      padding: 0 0 6px 0;
+      font-size: 11px;
       color: #9b9a97;
       font-weight: 600;
-      background: #f0eeeb;
       text-transform: uppercase;
-      letter-spacing: 0.05em;
+      letter-spacing: 0.08em;
     }
 
     .prop-val {
-      padding: 10px 16px;
+      padding: 4px 0 0 0;
       font-size: 14px;
       color: #37352f;
       display: flex;
@@ -158,8 +154,8 @@
     /* Divider */
     hr {
       border: none;
-      border-top: 1px solid #e9e9e7;
-      margin: 28px 0;
+      border-top: 1px solid #f0f0f0;
+      margin: 32px 0;
     }
 
     /* Headings */
@@ -167,7 +163,7 @@
       font-size: 22px;
       font-weight: 700;
       color: #37352f;
-      margin: 32px 0 16px;
+      margin: 36px 0 16px;
       line-height: 1.3;
     }
 
@@ -187,33 +183,28 @@
 
     /* ============ CALLOUT BLOCKS ============ */
     .callout {
-      background: #f1f1ef;
-      border-radius: 6px;
-      padding: 16px;
+      background: transparent;
+      padding: 16px 0 16px 16px;
       margin: 20px 0;
-      border-left: 4px solid #37352f;
+      border-left: 3px solid #37352f;
       font-size: 14px;
       color: #37352f;
       line-height: 1.7;
     }
 
     .callout.red {
-      background: #fbe4e2;
-      border-left-color: #b85450;
+      border-left-color: #ff3c1f;
     }
 
     .callout.blue {
-      background: #e8f3fb;
       border-left-color: #0066cc;
     }
 
     .callout.green {
-      background: #ddedea;
       border-left-color: #0f7b6c;
     }
 
     .callout.gold {
-      background: #fef3cd;
       border-left-color: #d4a017;
     }
 
@@ -223,13 +214,13 @@
 
     /* ============ TOGGLE BLOCKS ============ */
     .toggle {
-      border-left: 4px solid #ff3c1f;
+      border-left: 3px solid #ff3c1f;
       padding-left: 16px;
       margin: 18px 0;
     }
 
     .toggle-title {
-      font-size: 12px;
+      font-size: 11px;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 0.1em;
@@ -247,21 +238,14 @@
     .feature-grid {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 12px;
-      margin: 20px 0;
+      gap: 16px;
+      margin: 24px 0;
     }
 
     .feature-card {
-      border: 1px solid #e9e9e7;
-      border-radius: 6px;
-      padding: 16px;
-      background: #fbfaf8;
+      padding: 16px 0;
+      background: transparent;
       transition: all 0.2s ease;
-    }
-
-    .feature-card:active {
-      background: #f1f0ee;
-      border-color: #d9d8d5;
     }
 
     .feature-card-label {
@@ -290,16 +274,14 @@
     .stat-row {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 12px;
-      margin: 20px 0;
+      gap: 16px;
+      margin: 24px 0;
     }
 
     .stat-card {
-      background: #f7f6f3;
-      border-radius: 6px;
-      padding: 18px 16px;
-      text-align: center;
-      border: 1px solid #e9e9e7;
+      background: transparent;
+      padding: 16px 0;
+      text-align: left;
     }
 
     .stat-num {
@@ -339,7 +321,7 @@
 
     /* ============ BLOCKQUOTE ============ */
     blockquote {
-      border-left: 4px solid #37352f;
+      border-left: 3px solid #37352f;
       padding-left: 16px;
       margin: 20px 0;
       font-style: italic;
@@ -351,8 +333,8 @@
     /* ============ FOOTER ============ */
     .page-footer {
       margin-top: 48px;
-      padding: 24px 20px 40px;
-      border-top: 1px solid #e9e9e7;
+      padding: 24px 0 40px;
+      border-top: 1px solid #f0f0f0;
       font-size: 11px;
       color: #c1c1be;
       text-align: center;
@@ -378,17 +360,31 @@
       }
 
       .prop-row {
-        grid-template-columns: 180px 1fr;
+        grid-template-columns: 160px 1fr;
+        gap: 16px;
+        padding: 14px 0;
+      }
+
+      .prop-key {
+        padding: 0;
+      }
+
+      .prop-val {
+        padding: 0;
       }
 
       .feature-grid {
         grid-template-columns: 1fr 1fr;
-        gap: 14px;
+        gap: 20px;
       }
 
       .stat-row {
         grid-template-columns: repeat(3, 1fr);
-        gap: 14px;
+        gap: 20px;
+      }
+
+      .stat-card {
+        text-align: center;
       }
 
       h2 {
@@ -397,7 +393,7 @@
       }
 
       .page-footer {
-        padding: 32px 40px 60px;
+        padding: 32px 0 60px;
       }
     }
 
@@ -430,7 +426,7 @@
       }
 
       .page-footer {
-        padding: 40px 40px 80px;
+        padding: 40px 0 80px;
       }
     }
   </style>
@@ -479,7 +475,7 @@
       <p>Dash is a hyper-local campus super-app designed to serve the student community at Ghana Communication Technology University (GCTU). It addresses a set of persistent, unmet needs in the daily lives of Ghanaian university students — needs that currently go unsolved or are handled through informal, unsafe, and inefficient channels.</p>
 
       <div class="callout blue">
-        <strong>The platform brings together several interconnected services under one trusted, verified ecosystem:</strong> peer-to-peer trade, academic resource sharing, student skill services, verified employment opportunities, accommodation listings, and a first-of-its-kind AI-assisted campus navigation layer.
+        The platform brings together several interconnected services under one trusted, verified ecosystem: peer-to-peer trade, academic resource sharing, student skill services, verified employment opportunities, accommodation listings, and a first-of-its-kind AI-assisted campus navigation layer.
       </div>
 
       <p>Each component is designed around the real behaviour of Ghanaian university students and the constraints they operate under — including limited mobile data, reliance on Mobile Money, and the absence of formal institutional support structures for everyday commerce and opportunity.</p>
@@ -549,7 +545,7 @@
 
       <h3>3.3 Trust and Safety Architecture</h3>
       <div class="callout gold">
-        <strong>Trust infrastructure includes:</strong> institutional email verification, a peer reputation system, an affiliate accountability model, SRC-backed employment verification, and physical Safe Zone meetup points surfaced through the mapping layer.
+        Trust infrastructure includes: institutional email verification, a peer reputation system, an affiliate accountability model, SRC-backed employment verification, and physical Safe Zone meetup points surfaced through the mapping layer.
       </div>
 
       <hr>
@@ -621,7 +617,7 @@
       <p>The AI component of Dash is the <strong>Dash Map</strong> — a crowd-sourced, computer vision-assisted campus navigation layer. Students contribute scan data through their phone cameras as they move around campus. This data is processed by an AI pipeline to construct and continuously refine a spatial map, powering live walking navigation for safe trade meetups.</p>
 
       <div class="callout">
-        <strong>The AI application is purposeful, not decorative.</strong> It solves a specific problem — campus navigation for safe commerce — and is deeply integrated with the financial activity taking place on the platform. The community-powered data model creates a network effect: more students scanning means a more valuable map for everyone.
+        The AI application is purposeful, not decorative. It solves a specific problem — campus navigation for safe commerce — and is deeply integrated with the financial activity taking place on the platform. The community-powered data model creates a network effect: more students scanning means a more valuable map for everyone.
       </div>
 
       <h3>6.3 Innovation Positioning</h3>
